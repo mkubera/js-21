@@ -14,17 +14,40 @@
       .hidden {
         display: none;
       }
+      .big-text {
+        font-size: 32px;
+        font-weight: bold;
+      }
     </style>
+    <script src="./js/main.js"></script>
   </head>
   <body>
-    <div id="Box1" class="box">Box</div>
+    <ul id="users"></ul>
+
+    <form id="testForm">
+      <input
+        id="testFormUsername"
+        type="text"
+        placeholder="user name"
+        value="Kasia"
+      />
+      <input
+        id="testFormMessage"
+        type="text"
+        placeholder="message"
+        value="Ciapki!!! :D"
+      />
+      <input type="submit" value="Submit test form" />
+    </form>
+
+    <div id="Box1" class="box">Box1</div>
+    <div id="Box2" class="box">Box2</div>
+    <div id="Box3" class="box">Box3</div>
     <p id="Lorem" class="hidden">
       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsum
       velit nulla aspernatur ad, dignissimos eius in architecto placeat
       obcaecati fuga vel hic similique laudantium quae provident rem ipsam
       voluptate.
     </p>
-
-    <script src="js/main.js"></script>
   </body>
 </html>
